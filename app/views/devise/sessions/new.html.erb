@@ -18,9 +18,9 @@
     </div>
   <% end %>
 
-  <div class="actions">
-    <%= f.submit "Log in", class:"btn btn-primary" %>
+  <div class="form-group mb-3">
+    <%= f.submit "Log in", class:"btn btn-secondary" %>
+    <%= render "devise/shared/links" %>   
   </div>
 <% end %>
 
-<%= render "devise/shared/links" %>
